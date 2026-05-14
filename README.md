@@ -10,14 +10,16 @@ This project demonstrates an end-to-end data analytics workflow, analyzing 99,45
 Cleaning: Verified 99,457 records with zero null values across all columns.
 Profit Analysis: Built a dedicated Profit_Analysis sheet calculating Gross Profit using the formula Total Revenue × (1 - Operating Expense%) for all 10 malls.
 Structured Output: Organized data across multiple sheets (SalesData, Lists, Growth_Forecast, Product_Master, Revenue_Forecast, Profit_Analysis).
+Revenue Analysis: Identified top-performing categories with aggregated revenue metrics.
+Trend Modeling: Built monthly sales trend queries using FORMAT() for time-series analysis.
+Efficiency Metrics: Calculated revenue_per_sale for each mall to measure operational performance.
+
 
 ![Data Overview](./data_overview.png)
 Figure 1: SalesData sheet showing the cleaned dataset with 99,457 transaction records across 11 columns.
 
 
-Revenue Analysis: Identified top-performing categories with aggregated revenue metrics.
-Trend Modeling: Built monthly sales trend queries using FORMAT() for time-series analysis.
-Efficiency Metrics: Calculated revenue_per_sale for each mall to measure operational performance.
+
 
 2. Analytical Querying (SQL Server 2022)
 
@@ -32,6 +34,7 @@ Dynamic Slicers: All visuals update instantly based on slicer selections.
 
 ![Executive Summary](./executive_summary.png)
 Figure 3: Main dashboard showing ₺251.51M total revenue across 99K transactions with interactive filters for Year, Mall, Category, and Gender.
+
 
 ![Customer Graphics](./customer_demographics.png)
 Figure 4: Demographics page showing spending patterns by age group and gender, with 18-29 identified as the top spending segment.
