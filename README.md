@@ -48,7 +48,7 @@ Figure 2: CTE-based demographic segmentation query in SQL Server Management Stud
 ### ![Executive Summary](./executive_summary.png)
 Figure 3: Main dashboard showing ₺251.51M total revenue across 99K transactions with interactive filters for Year, Mall, Category, and Gender.
 
-### ![Customer Graphics](./customer_demographics.png)
+### ![Customer Graphics](./demographic_insights.png)
 Figure 4: Demographics page showing spending patterns by age group and gender, with 18-29 identified as the top spending segment.
 
 
