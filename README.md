@@ -11,7 +11,7 @@ Cleaning: Verified 99,457 records with zero null values across all columns.
 Profit Analysis: Built a dedicated Profit_Analysis sheet calculating Gross Profit using the formula Total Revenue × (1 - Operating Expense%) for all 10 malls.
 Structured Output: Organized data across multiple sheets (SalesData, Lists, Growth_Forecast, Product_Master, Revenue_Forecast, Profit_Analysis).
 
-data_overview.png
+(data_overview.png)
 Figure 1: SalesData sheet showing the cleaned dataset with 99,457 transaction records across 11 columns.
 
 2. Analytical Querying (SQL Server 2022)
