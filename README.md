@@ -11,7 +11,7 @@ Cleaning: Verified 99,457 records with zero null values across all columns.
 Profit Analysis: Built a dedicated Profit_Analysis sheet calculating Gross Profit using the formula Total Revenue × (1 - Operating Expense%) for all 10 malls.
 Structured Output: Organized data across multiple sheets (SalesData, Lists, Growth_Forecast, Product_Master, Revenue_Forecast, Profit_Analysis).
 
-Show Image
+data_overview.png
 Figure 1: SalesData sheet showing the cleaned dataset with 99,457 transaction records across 11 columns.
 
 2. Analytical Querying (SQL Server 2022)
@@ -21,7 +21,7 @@ Trend Modeling: Built monthly sales trend queries using FORMAT() for time-series
 Demographic Segmentation: Used CTEs with CASE WHEN logic to group customers into age brackets (18-29, 30-39, 40-49, 50-59, 60+).
 Efficiency Metrics: Calculated revenue_per_sale for each mall to measure operational performance.
 
-Show Image
+demographic_analysis.png
 Figure 2: CTE-based demographic segmentation query in SQL Server Management Studio, showing results grouped by gender, age group, and category.
 
 3. Interactive Dashboard (Power BI)
@@ -30,9 +30,9 @@ Executive Summary Page: KPI cards, income trend, payment method breakdown, top c
 Customer Demographics Page: Age group & gender analysis, top spending segment, average order value by age, and category revenue by gender.
 Dynamic Slicers: All visuals update instantly based on slicer selections.
 
-Show Image
+executive_summary.png
 Figure 3: Main dashboard showing ₺251.51M total revenue across 99K transactions with interactive filters for Year, Mall, Category, and Gender.
-Show Image
+customer_graphics.png
 Figure 4: Demographics page showing spending patterns by age group and gender, with 18-29 identified as the top spending segment.
 
 Technical Stack: SQL Server 2022 (SQL), Power BI (DAX & Power Query), Microsoft Excel.
