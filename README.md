@@ -38,14 +38,18 @@ By integrating Excel for data preparation and profit analysis, SQL Server for ad
 
 **Technical Stack:** SQL Server 2022 (SQL), Power BI (DAX & Power Query), Microsoft Excel.
 
+
 ![Data Overview](./data_overview.png)
 Figure 1: SalesData sheet showing the cleaned dataset with 99,457 transaction records across 11 columns.
+
 
 ![SQL Modeling & Pivot Logic](./demographic_analysis.png)
 Figure 2: CTE-based demographic segmentation query in SQL Server Management Studio, showing results grouped by gender, age group, and category.
 
+
 ![Executive Summary](./executive_summary.png)
 Figure 3: Main dashboard showing ₺251.51M total revenue across 99K transactions with interactive filters for Year, Mall, Category, and Gender.
+
 
 
 ![Customer Graphics](./customer_demographics.png)
@@ -56,9 +60,15 @@ Figure 4: Demographics page showing spending patterns by age group and gender, w
 📈 Key Findings
 
 --Clothing, Shoes, and Technology account for 93% of total revenue (₺239M out of ₺251.51M)
+
 --Mall of Istanbul and Kanyon lead with ₺51M each in total revenue
---18-29 age group generates the highest total spending — driven by transaction frequency, not basket siz
+
+--18-29 age group generates the highest total spending — driven by transaction frequency, not basket size
+
 --Average order value is consistent across all age groups at ~₺2.53K, indicating age does not influence purchase size
+
 --Female customers outspend male customers in Clothing by 49%
+
 --Cash is the most preferred payment method at 44.69%, followed by Credit Card at 35.12%
+
 --Revenue trend is stable across 3 years with no significant seasonality (~₺9.7M/month average)
