@@ -39,20 +39,16 @@ By integrating Excel for data preparation and profit analysis, SQL Server for ad
 **Technical Stack:** SQL Server 2022 (SQL), Power BI (DAX & Power Query), Microsoft Excel.
 
 
-![Data Overview](./data_overview.png)
+### ![Data Overview](./data_overview.png)
 Figure 1: SalesData sheet showing the cleaned dataset with 99,457 transaction records across 11 columns.
 
-
-![SQL Modeling & Pivot Logic](./demographic_analysis.png)
+### ![SQL Modeling & Pivot Logic](./demographic_analysis.png)
 Figure 2: CTE-based demographic segmentation query in SQL Server Management Studio, showing results grouped by gender, age group, and category.
 
-
-![Executive Summary](./executive_summary.png)
+### ![Executive Summary](./executive_summary.png)
 Figure 3: Main dashboard showing ₺251.51M total revenue across 99K transactions with interactive filters for Year, Mall, Category, and Gender.
 
-
-
-![Customer Graphics](./customer_demographics.png)
+### ![Customer Graphics](./customer_demographics.png)
 Figure 4: Demographics page showing spending patterns by age group and gender, with 18-29 identified as the top spending segment.
 
 
