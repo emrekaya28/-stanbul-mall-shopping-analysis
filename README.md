@@ -30,9 +30,9 @@ Executive Summary Page: KPI cards, income trend, payment method breakdown, top c
 Customer Demographics Page: Age group & gender analysis, top spending segment, average order value by age, and category revenue by gender.
 Dynamic Slicers: All visuals update instantly based on slicer selections.
 
-executive_summary.png
+![Executive Summary](./executive_summary)
 Figure 3: Main dashboard showing ₺251.51M total revenue across 99K transactions with interactive filters for Year, Mall, Category, and Gender.
-customer_graphics.png
+![Customer Graphics](./customer_graphics.png)
 Figure 4: Demographics page showing spending patterns by age group and gender, with 18-29 identified as the top spending segment.
 
 Technical Stack: SQL Server 2022 (SQL), Power BI (DAX & Power Query), Microsoft Excel.
