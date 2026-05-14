@@ -3,11 +3,11 @@ Transforming Retail Transaction Data into Actionable Business Insights (2021–2
 
 🏬 Project Summary
 This project demonstrates an end-to-end data analytics workflow, analyzing 99,457 customer transactions across 10 major Istanbul shopping malls. 
-
 By integrating Excel for data preparation and profit analysis, SQL Server for advanced querying, and Power BI for interactive visualization, the dashboard uncovers key patterns in revenue, customer demographics, and mall performance.
 
-🛠️ The Data Journey (Step-by-Step)
-1. Data Preparation & Profit Analysis (Excel)
+🛠️ The Data Journey 
+
+• Data Preparation & Profit Analysis (Excel)
 
 Cleaning: Verified 99,457 records with zero null values across all columns.
 
@@ -28,13 +28,13 @@ Figure 1: SalesData sheet showing the cleaned dataset with 99,457 transaction re
 
 
 
-2. Analytical Querying (SQL Server 2022)
+• Analytical Querying (SQL Server 2022)
 
 ![SQL Modeling & Pivot Logic](./demographic_analysis.png)
 
 Figure 2: CTE-based demographic segmentation query in SQL Server Management Studio, showing results grouped by gender, age group, and category.
 
-3. Interactive Dashboard (Power BI)
+• Interactive Dashboard (Power BI)
 
 Executive Summary Page: KPI cards, income trend, payment method breakdown, top categories, and mall revenue — all filterable by Year, Mall, Category, and Gender.
 
