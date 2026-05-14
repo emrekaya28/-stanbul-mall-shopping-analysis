@@ -21,7 +21,7 @@ Trend Modeling: Built monthly sales trend queries using FORMAT() for time-series
 Demographic Segmentation: Used CTEs with CASE WHEN logic to group customers into age brackets (18-29, 30-39, 40-49, 50-59, 60+).
 Efficiency Metrics: Calculated revenue_per_sale for each mall to measure operational performance.
 
-demographic_analysis.png
+![SQL Modeling & Pivot Logic](./demographic_analysis.png)
 Figure 2: CTE-based demographic segmentation query in SQL Server Management Studio, showing results grouped by gender, age group, and category.
 
 3. Interactive Dashboard (Power BI)
